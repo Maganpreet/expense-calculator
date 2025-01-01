@@ -1,0 +1,12 @@
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.calendar button {
+    height: 10vi;
+    width: 20vi;
+    color: black;
+}
