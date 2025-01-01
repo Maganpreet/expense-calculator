@@ -16,7 +16,7 @@ const Month: React.FC<{
     <>
       <div className="calendar">
         {
-            props.expenses.map((idx, expense) => <button color="red" key={idx} value={expense}></button>)
+            props.expenses.map((expense, idx) => <button color="red" key={idx} value={expense}>{expense}</button>)
         }
       </div>
     </>
